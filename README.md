@@ -97,7 +97,7 @@ First time you issue the docker compose command, many things happens:
 ### **Note: the orchestrator is wrapped in a safety script that blocks it from starting untill everything else is up and running, you should see in the log a message telling you that the launch is delayed more than one times until it's finally safe to start it, once you see the springboot logo in the logs, you should be ready to go**
 
 ## Operating the stack
-Genarlly speaking you should only need to use the proper docker-compose command to start and stop the whole stack, and everything should work fine, and data persist trhough restarts
+Generally speaking you should only need to use the proper docker-compose command to start and stop the whole stack, and everything should work fine, and data persist trhough restarts
 
 **To start:**
 ```bash
