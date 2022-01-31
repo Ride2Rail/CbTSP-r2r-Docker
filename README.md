@@ -112,6 +112,7 @@ Generally speaking you should only need to use the proper docker-compose command
 ```
 **CAVEATS:**
 If for any reason, you need to stop only the ***cbtsp-planner*** container, **BEWARE THAT** planning data is persisted in the backend and not in the planner which operates in memory, the component responsible for checking consistency of the planner is the ***cbtsp-orchestrator*** at its stratup, so if you manually restart the ***cbtsp-planner***, remember to restart **AFTER THAT** also the ***cbtsp-planner***
+In any case, after a *stack restart* you should see the last component starting (the orchestrator) checking for plans to restore into the planner memory, you should see in the logs how many plans need to be reinserted into the planner and should be able to follow throug while the orchestrator proceeds to ask the planner to recreate all the cached plans
 
 ## You want the clean slate?
 In case you want /need to start fresh, there's a handy script that you should find in your working directory if you cloned this reposistory, it's name is:
