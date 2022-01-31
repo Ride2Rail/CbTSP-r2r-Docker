@@ -45,7 +45,7 @@ At this point you should have on your local repository, the images listed above.
 	cd
 	git clone https://github.com/Ride2Rail/CbTSP-r2r-Docker.git
 	```
- - Make sure that alle the scripts (.sh) are set as executables
+ - Make sure that all the scripts (.sh) are set as executables (you probably will not need all of them)
     ```shell
 	chmod +x ./cbtsp-run.sh
 	chmod +x ./cleanup.sh
