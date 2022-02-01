@@ -66,7 +66,7 @@ Once you have cloned this repository in your working directory you should find t
 
  - **FOLDER: planner-data** - It contains the **padova.pbf** which is the openstreetmap file from which, upon first run, the planner 		 		builds its internal graph, upon first run, this folder will contain also the persisted planner graph object. **For other demos other than "Padova", you must change the padova.pbf file with the one of your interest, before the first run**
 
- - **FOLDER: director-data** - It contains SpringBoot **application.properties**, this file should not be altered unless you are 100% sure of what you are doing, it basically contains all the configuration parameters of the orchestrator, including other api's endpoints, ip addresses, ports, usernames, passwords and so on. It's externalized so that if something changes down the line, it may just require editing this file and relaunching the container instead of redeployng a new one. 
+ - **FOLDER: director-data** - It contains SpringBoot **application.properties** and the directore executable **(.jar)**, those files should not be altered unless you are 100% sure of what you are doing, *.properties* basically contains all the configuration parameters of the orchestrator, including other api's endpoints, ip addresses, ports, usernames, passwords and so on. It's externalized so that if something changes down the line, it may just require editing this file and relaunching the container instead of redeployng a new one. 
  **BEWARE THAT: the content of this file may be correlated to other configuration files listed, so in case of any planned change, you should check the correlation on theese other files also**
  
 
