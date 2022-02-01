@@ -1,5 +1,7 @@
 # CbTSP-r2r-Docker
 Repository for CbTSP docker stack
+#### Updates
+01/02/2022 - Externalized *cbtsp_director* from docker image, and adjusted *stack_pass.yml* accordingly, fixed a bug in *cbtsp_director* (string instead of boolean in a pojo)
 
 # Hello Ride2Rail Docker
 
