@@ -3,8 +3,8 @@ Repository for CbTSP docker stack
 #### Updates
 01/02/2022 - Externalized *cbtsp_director* from docker image, and adjusted *stack_pass.yml* accordingly, fixed a bug in *cbtsp_director* (string instead of boolean in a pojo)  
 11/02/2022 - Fixed wrong naming of docker images in "stack_pass.yml" it was referencing a local naming, instead of the github docker registry naming convention   
-22/02/2022 - Added documentation about GeoJson and PBF files
-02/03/2022 - Fixed a bug on Drivers API endpoint (delete not working properly)
+22/02/2022 - Added documentation about GeoJson and PBF files  
+02/03/2022 - Fixed a bug on Drivers API endpoint (delete and getByEmail not working properly)
 
 # Hello Ride2Rail Docker
 
