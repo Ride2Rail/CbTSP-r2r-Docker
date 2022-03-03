@@ -1,5 +1,6 @@
 # Ride2Rail demo data
 
+Servive area definition in GeoJSON and corresponding PBF files.
 
 ## Athens
 
