@@ -5,9 +5,10 @@ Repository for CbTSP docker stack
 11/02/2022 - Fixed wrong naming of docker images in "stack_pass.yml" it was referencing a local naming, instead of the github docker registry naming convention   
 22/02/2022 - Added documentation about GeoJson and PBF files  
 02/03/2022 - Fixed a bug on Drivers API endpoint (delete and getByEmail not working properly)  
-14/03/2022 - Fixed an issue where asking for a non-existend driver would result in an internal server error instead of a 404 not found error  
+14/03/2022 - Fixed an issue where asking for a non-existing driver would result in an internal server error instead of a 404 not found error  
 14/03/2022 - Fixed an issue where in the intermediate list of points of a lift, the last one was missing  
-18/03/2022 - Fixed configuration issue as requested by OLTISgroup, added route replan functionality to support triptracking 
+18/03/2022 - Fixed configuration issue as requested by OLTISgroup, added route replan functionality to support triptracking
+25/03/2022 - Fixed an issue where asking for a non-existing lift, ride or car would result in an internal server error instead of a 404 not found error
 
 # Hello Ride2Rail Docker
 
