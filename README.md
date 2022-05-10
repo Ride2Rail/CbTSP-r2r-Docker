@@ -9,6 +9,7 @@ Repository for CbTSP docker stack
 14/03/2022 - Fixed an issue where in the intermediate list of points of a lift, the last one was missing  
 18/03/2022 - Fixed configuration issue as requested by OLTISgroup, added route replan functionality to support triptracking
 25/03/2022 - Fixed an issue where asking for a non-existing lift, ride or car would result in an internal server error instead of a 404 not found error
+10/05/2022 - Added implementation of integration with Triptracker (POLIMI), implemented functionality for signaling to stop tracking on ride cancellation
 
 # Hello Ride2Rail Docker
 
