@@ -59,7 +59,7 @@ services:
        - "127.0.0.1:${DIRECTOR_PORT}:8080"
      volumes:
        - ./director-data/application.properties:/app/application.properties:ro
-       - ./director-data/CbtspDirector-0.9.8.jar:/app/CbtspDirector.jar
+       - ./director-data/CbtspDirector-0.9.9.jar:/app/CbtspDirector.jar
      restart: unless-stopped
      environment:
        BACKEND_HOST: ${BACKEND_IP}
