@@ -11,6 +11,7 @@ Repository for CbTSP docker stack
 25/03/2022 - Fixed an issue where asking for a non-existing lift, ride or car would result in an internal server error instead of a 404 not found error  
 10/05/2022 - Added implementation of integration with Triptracker (POLIMI), implemented functionality for signaling to stop tracking on ride cancellation  
 18/05/2022 - Updated logic on the "search for lift" operation, now all the possible results are included  
+03/06/2022 - Fixed an issue regarding Lift search when Departure and Arrival points where inside the walk radius
 
 # Hello Ride2Rail Docker
 
