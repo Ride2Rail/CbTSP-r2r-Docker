@@ -46,7 +46,7 @@ services:
        - ${PLANNER_PORT}
      volumes:
        - ./planner-data:/app/base/graphs/trenitalia
-       #- ./planner-data/otp-rom.jar:/app/otp.jar
+       - ./planner-data/otp-utc.jar:/app/otp.jar
      restart: unless-stopped
      environment:
        JAVA_OPTS: "-Xmx4G"
